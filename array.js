@@ -18,9 +18,7 @@ var ArrayList = {
 		return internalArray.length;
 	},
 	clear : function() {
-		for (var i = 0; i < internalArray.length; i++) {
-			internalArray[i] = null;
-		}
+		internalArray.length = 0;
 	},
 	contains : function(o) {
 		for (var i = 0; i < internalArray.length; i++) {
