@@ -22,7 +22,7 @@ var ArrayList = {
 	},
 	contains : function(o) {
 		for (var i = 0; i < internalArray.length; i++) {
-			if (internalArray[i] == o) {
+			if (internalArray[i] == 0) {
 				return true;
 			}
 		}
