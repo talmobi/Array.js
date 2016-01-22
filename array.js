@@ -26,13 +26,12 @@ var ArrayList = {
 		for (var i = 0; i < internalArray.length; i++) {
 			if (internalArray[i] == o) {
 				return true;
-			} else {
-				return false;
 			}
 		}
+		return false;
 	},
 	remove : function(i) {
-		internalArray[i] = null;
+		internalArray = internalArray.splice(i, 1);
 	},
 	set : function(i, o) {
 		internalArray[i] = o;
