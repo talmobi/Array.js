@@ -29,7 +29,7 @@ var ArrayList = {
 		return false;
 	},
 	remove : function(i) {
-		internalArray = internalArray.splice(i, 1);
+		internalArray.splice(i, 1);
 	},
 	set : function(i, o) {
 		internalArray[i] = o;
